@@ -1,2 +1,2 @@
 #!/bin/bash
-num_directories=$(echo $PATH | tr ':' '\n' | grep -v '^$' | wc -l)
+echo $PATH | tr ":" "\n" | wc -lclient_loop: send disconnect: Connection reset by peer
