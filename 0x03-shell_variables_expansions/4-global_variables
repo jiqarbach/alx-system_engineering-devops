@@ -1,0 +1,4 @@
+#!/bin/bash
+for variable in $(printenv | sort); do
+    echo "$variable"
+done
